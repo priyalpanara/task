@@ -1,0 +1,219 @@
+// Variables
+$body-background-color: rgb(218, 232, 238);
+$font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$primary-border-color: rgb(101, 101, 101);
+$primary-button-color:  rgb(159 ,58 ,219);
+$primary-hover-color:white;
+
+// Base styles
+body {
+  margin: 0;
+  background-color: $body-background-color;
+  font-family: $font-family;
+}
+
+.card {
+  height: auto;
+  width: auto;
+  margin: 30px;
+  border: 0.5px solid $primary-border-color;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  flex-wrap:wrap;
+
+  #btn {
+    background-color: $primary-button-color;
+    color: white;
+    padding: 9px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 18px;
+    // width: 9vw;
+    transition: all 0.5s ease;
+    font-size: 16px;
+
+    &:hover {
+      background-color: $primary-hover-color;
+      color: $primary-button-color;
+      border: 1px solid $primary-button-color;
+      box-shadow: 0 0 15px  rgb(159 ,58 ,219);
+    }
+
+    i.fa {
+      margin-left: 0px;
+    }
+  }
+}
+
+.cardDetails {
+  height: auto;
+  width: auto;
+}
+
+.award-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  .awards {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+
+    .award {
+      text-align: center;
+
+      .circle {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        
+      }
+
+      .circle.pink {
+        background-color: rgb(240, 149, 164);
+      }
+
+      .circle.yellow {
+        background-color: yellow;
+      }
+
+      .circle.grey {
+        background-color: rgba(128, 128, 128,0.6);
+      }
+
+      .circle.green {
+        background-color: rgb(90, 231, 90);
+      }
+
+      .star {
+        font-size: 24px;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-weight: 450;
+      }
+    }
+  }
+
+  .award-descriptions {
+    padding: 16px;
+  }
+  
+ 
+}
+#sub-star{
+  color:rgb(246, 93, 119);
+  font-weight: 500;
+}
+
+img {
+  height: 16vh;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.rating {
+  color: rgba(159 ,58 ,219 , 0.7);
+  text-align: center;
+  
+}
+ .rating span{
+  font-weight: 700;
+  color:rgba(159 ,58 ,219 , 0.9);
+  font-size: large;
+  
+
+}
+
+#first-sec {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+
+p {
+  margin: 0px;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+  pre {
+    margin: 0px;
+  }
+
+  h2 {
+    margin: 2px;
+    padding: 5px;
+  }
+
+  p {
+    margin: 10px;
+  }
+
+  #user-name {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .heading {
+    white-space: nowrap;
+  }
+
+  .name {
+    font-weight: bold;
+  }
+
+  .experience {
+    color: grey;
+  }
+
+  .exp-text {
+    color: grey;
+    font-size: 18px;
+  }
+
+  .sbj {
+    display: flex;
+    color: rgba(159 ,58 ,219 , 0.8);
+    font-weight: 500;
+    font-size: medium;
+  }
+
+  .subject-box {
+    border: 1px solid rgb(186, 165, 232);
+    margin: 5px;
+    padding: 2px 22px 0px 22px;
+    border-radius: 5px;
+  }
+}
+
+.basic {
+  text-align: left;
+  flex-wrap: nowrap;
+}
+
+#subdetails span {
+  color: rgba(159 ,58 ,219 , 0.7);
+}
+
+#subdetails {
+  color: grey;
+  font-weight: 300;
+}

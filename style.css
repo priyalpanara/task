@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  background-color: rgb(218, 232, 238);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  height: auto;
+  width: auto;
+  margin: 30px;
+  border: 0.5px solid rgb(101, 101, 101);
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+.card #btn {
+  background-color: rgb(159, 58, 219);
+  color: white;
+  padding: 9px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 18px;
+  transition: all 0.5s ease;
+  font-size: 16px;
+}
+.card #btn:hover {
+  background-color: white;
+  color: rgb(159, 58, 219);
+  border: 1px solid rgb(159, 58, 219);
+  box-shadow: 0 0 15px rgb(159, 58, 219);
+}
+.card #btn i.fa {
+  margin-left: 0px;
+}
+
+.cardDetails {
+  height: auto;
+  width: auto;
+}
+
+.award-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.award-section .awards {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+.award-section .awards .award {
+  text-align: center;
+}
+.award-section .awards .award .circle {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.award-section .awards .award .circle.pink {
+  background-color: rgb(240, 149, 164);
+}
+.award-section .awards .award .circle.yellow {
+  background-color: yellow;
+}
+.award-section .awards .award .circle.grey {
+  background-color: rgba(128, 128, 128, 0.6);
+}
+.award-section .awards .award .circle.green {
+  background-color: rgb(90, 231, 90);
+}
+.award-section .awards .award .star {
+  font-size: 24px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 450;
+}
+.award-section .award-descriptions {
+  padding: 16px;
+}
+
+#sub-star {
+  color: rgb(246, 93, 119);
+  font-weight: 500;
+}
+
+img {
+  height: 16vh;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.rating {
+  color: rgba(159, 58, 219, 0.7);
+  text-align: center;
+}
+
+.rating span {
+  font-weight: 700;
+  color: rgba(159, 58, 219, 0.9);
+  font-size: large;
+}
+
+#first-sec {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+p {
+  margin: 0px;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.right-section pre {
+  margin: 0px;
+}
+.right-section h2 {
+  margin: 2px;
+  padding: 5px;
+}
+.right-section p {
+  margin: 10px;
+}
+.right-section #user-name {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.right-section .heading {
+  white-space: nowrap;
+}
+.right-section .name {
+  font-weight: bold;
+}
+.right-section .experience {
+  color: grey;
+}
+.right-section .exp-text {
+  color: grey;
+  font-size: 18px;
+}
+.right-section .sbj {
+  display: flex;
+  color: rgba(159, 58, 219, 0.8);
+  font-weight: 500;
+  font-size: medium;
+}
+.right-section .subject-box {
+  border: 1px solid rgb(186, 165, 232);
+  margin: 5px;
+  padding: 2px 22px 0px 22px;
+  border-radius: 5px;
+}
+
+.basic {
+  text-align: left;
+  flex-wrap: nowrap;
+}
+
+#subdetails span {
+  color: rgba(159, 58, 219, 0.7);
+}
+
+#subdetails {
+  color: grey;
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=style.css.map */
